@@ -39,5 +39,30 @@ The mosquitto-python-library can be installed from here `paho.mqtt.python <https
 More information can be found at `Mosquitto Website <https://mosquitto.org/documentation/authentication-methods/>`_ .
 A helpfull tutorial can be found `here <http://www.steves-internet-guide.com/mossquitto-conf-file/>`_ .
 
-
 Limitations
+-----------------
+
+The following feature are unimplemented.
+
+Calibration of the line-sensors.
+
+Basestation
+-------------
+
+Detailed API documentation is available through **pydoc**. Samples are available in the **examples** directory.
+
+The package provides two modules, a full client and a helper for simple publishing.
+
+RobotEsp32 userinstruction
+**************************
+
+The RobotEsp32 class contains all necessary functions for controlling and reading sensor data.
+
+.. code:: python
+
+    from paho.mqtt import client as mqtt_client
+    import RobotEsp32 as classexample
+
+    # The callback for when the client receives a CONNACK response from the server.
+    examplebot = classexample.RobotEsp32( your broker IP-Adress, Port (optional if different from port 1883), subscriber-topic, publicher-topic) 
+
