@@ -1,5 +1,3 @@
-# I-Rob
-Remote Roboter on ESP32 with MQTT
 I-Rob
 ================================
 Content of this project is a semi-autonomous robot system for academic teaching. The robot is remotely controlled from the base via the MQTT communication interface. 
@@ -8,14 +6,14 @@ Content of this project is a semi-autonomous robot system for academic teaching.
 Contents
 --------
 
-* Installation_
-* `Limitations`_
-* `Basestation`_
-    * `RobotEsp32`_
+* Installation
+* Limitations
+* Basestation
+    * RobotEsp32
 
-* `Roboter`_
-    * `I-Rob`_
-* `Hardeware`_
+* Roboter
+    * I-Rob
+* Hardeware
 
 
 Installation
@@ -26,13 +24,17 @@ Installation
 3. edit the config-file with the following lines
 
 ::
+
 	allow_anonymous true
 	listeners 1883
+
+        
 Now the Broker is available on Port 1883 and anonymous clients are allowed
 4. open the application service and deactivate mosquitto
 5. open cmd as admin and navigate to mosquitto folder. The following command is entered there:
 
 ::
+
    mosquitto -v -c mosquitto.conf
 
 The mosquitto-python-library can be installed from here `paho.mqtt.python <https://github.com/eclipse/paho.mqtt.python>'_
@@ -63,6 +65,6 @@ The RobotEsp32 class contains all necessary functions for controlling and readin
     from paho.mqtt import client as mqtt_client
     import RobotEsp32 as classexample
 
-    # The callback for when the client receives a CONNACK response from the server.
+    # Initatisation
     examplebot = classexample.RobotEsp32( your broker IP-Adress, Port (optional if different from port 1883), subscriber-topic, publicher-topic) 
 
