@@ -51,9 +51,7 @@ Calibration of the line-sensors.
 Basestation
 -------------
 
-Detailed API documentation is available through **pydoc**. Samples are available in the **examples** directory.
 
-The package provides two modules, a full client and a helper for simple publishing.
 
 RobotEsp32 userinstruction
 **************************
