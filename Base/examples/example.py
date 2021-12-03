@@ -1,4 +1,6 @@
-import RobotEsp32 as classbsp
+import sys
+sys.path.append('..')
+import src.RobotEsp32 as classbsp
 import random
 from paho.mqtt import client as mqtt_client
 import time
