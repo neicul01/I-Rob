@@ -110,7 +110,7 @@ The robot software can be uploaded via the Arduino IDE.
 
 1. Installing ESP32 in Arduino IDE (helpful tutorial can be found `here <https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/>`_ ).
 
-2. Installing the necessary librarys: 
+2. Installing the necessary librarys 
                                       WiFi by Arduino
                                       
                                       PubSubClient by Nick O'Leary
@@ -119,3 +119,31 @@ The robot software can be uploaded via the Arduino IDE.
 
 3. Make sure the roboter is off, than connecting the ESP32 via USB and upload the skretch
 4. To make it easier for the user to set the Wi-Fi connection as well as the connection to the Mosquitto broker, a Python script can be used instead of changing the Arduino script.
+
+
+Wifi-configuration
+*******************
+
+0. Make sure the roboter is off !
+
+1.Adapt SSID;Passwort;Broker-ip; in line 17
+
+2.Adapt COM-Port-number in line 29 and 31 ->if you do not now the port-number than:
+
+	I Set 'com_port_known' in line 19 to False
+	
+	II Run the script
+	
+	III Connect the ESP32 via USB (ATTENTION: never conect via usb while the roboter is on)
+	
+	IV Read the COM-Port-number from output of the script and adapt the COM-Port-number in line 29 and 31
+	
+	V Set 'com_port_known' in line 19 to True
+	
+3.Run the script
+
+4.Connect the ESP32 via USB with the Computer(ATTENTION: never connect via usb while the roboter is on)
+
+5.If the connection to the WLAN and the Broker succeeded, the script will print 'Connection succeeded' -> if not check your SSID, Passwort and Broker-ip in line 17 and your Mqtt-Brokersettings
+
+6.The Roboter is ready to use
