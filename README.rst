@@ -130,15 +130,15 @@ Wifi-configuration
 
 2.Adapt COM-Port-number in line 29 and 31 ->if you do not now the port-number than:
 
-	I Set 'com_port_known' in line 19 to False
+	I	Set 'com_port_known' in line 19 to False
 	
-	II Run the script
+	II	Run the script
 	
-	III Connect the ESP32 via USB (ATTENTION: never conect via usb while the roboter is on)
+	III	Connect the ESP32 via USB (ATTENTION: never conect via usb while the roboter is on)
 	
-	IV Read the COM-Port-number from output of the script and adapt the COM-Port-number in line 29 and 31
+	IV	Read the COM-Port-number from output of the script and adapt the COM-Port-number in line 29 and 31
 	
-	V Set 'com_port_known' in line 19 to True
+	V	Set 'com_port_known' in line 19 to True
 	
 3.Run the script
 
