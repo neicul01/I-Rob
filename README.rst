@@ -3,19 +3,6 @@ I-Rob
 Content of this project is a semi-autonomous robot system for academic teaching. The robot is remotely controlled from the base via the MQTT communication interface. 
 
 
-Contents
---------
-
-* Installation
-* Limitations
-* Basestation
-    * RobotEsp32
-
-* Roboter
-    * I-Rob
-* Hardeware
-
-
 Installation (Windows 10)
 ----------------------
 
@@ -126,7 +113,7 @@ Wifi-configuration
 
 0. Make sure the roboter is off !
 
-1.Adapt SSID;Passwort;Broker-ip; in line 17
+1.Open the Wifi_configuration script and adapt SSID;Passwort;Broker-ip; in line 17
 
 2.Adapt COM-Port-number in line 29 and 31 ->if you do not now the port-number than:
 
