@@ -12,8 +12,8 @@ Please note that some parts of the Robot.step model come from external sources. 
 Parts list
 -----------
 
-| Description   | number          | link  |
-| :------------ |:---------------:| -----:|
+| Description   | QTY          | link  |
+| :------------ |:---------------:| :-----|
 | Ball Caster| 1 | https://www.robotshop.com/uk/dfrobot-ball-caster-metal-ball.html |
 | DIN 912 M1.6x12 | 4 | |
 | DIN 912 M3x8 | 10 | |
