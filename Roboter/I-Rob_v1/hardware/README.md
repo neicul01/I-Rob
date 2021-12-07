@@ -20,6 +20,7 @@ Parts list
 | DIN 934 M3 | 10 | |
 | ELI TR8307     | 2       |   https://www.reichelt.de/reflexlichtschranke-0-7mm-submin-4-pol-eli-tr8307-p114341.html |
 | ESP32-NodeMCU | 1        |    https://www.az-delivery.de/products/esp32-developmentboard?variant=6119648460827 |
+| Femal pin header 1x20 | 2 | https://www.aliexpress.com/item/4000386969080.html |
 | GW12T-N20VA ratio42 B45 DC6V| 2 | https://de.aliexpress.com/item/1005002458533548.html |
 | L293D | 1 | https://de.aliexpress.com/item/1005002121440673.html |
 | RCWL-1601 | 2 | https://de.aliexpress.com/item/1005001693758196.html |
